@@ -32,7 +32,7 @@ $cs->registerScript(__FILE__ . 'accordition', '  location.hash && $(location.has
 			}
 			?>
 
-			<dt>Теги</dt>
+			<dt><?php echo Yii::t('tagsModule.common', 'Tags'); ?></dt>
 			<dd>
 			<?php
 				$tags = '';
@@ -65,7 +65,7 @@ $cs->registerScript(__FILE__ . 'accordition', '  location.hash && $(location.has
 	                <a href="#" class="btn" data-toggle="tooltip" data-placement="top" data-original-title="<?php echo Yii::t('torrentsModule',
 		                'Пожаловаться на {torrentName}',
 		                array('{torrentName}' => $model->getTitle())); ?>"><i class="icon-warning-sign"></i></a>
-                    <a href="#" class="btn" data-comments-for="4" data-toggle="tooltip" data-placement="top" data-original-title="<?php echo Yii::t('torrentsModule',
+                    <a href="#" class="btn" data-comments-for="<?php echo $torrent->getId() ?>" data-toggle="tooltip" data-placement="top" data-original-title="<?php echo Yii::t('torrentsModule',
 	                    'Смотреть комментарии для {torrentName}',
 	                    array('{torrentName}' => $model->getTitle())); ?>"><i class="icon-comment"></i></a>
 
@@ -73,22 +73,22 @@ $cs->registerScript(__FILE__ . 'accordition', '  location.hash && $(location.has
 
                     <span class="divider-vertical">|</span>
 
-                    <span>Размер: <abbr title="<?php echo Yii::t('torrentsModule.common',
+                    <span><?php echo $torrent->getAttributeLabel('size') ?>: <abbr title="<?php echo Yii::t('torrentsModule.common',
 		                    '{size} bytes',
 		                    array('{size}' => $torrent->getSize())); ?>"><?php echo $torrent->getSize(true); ?></abbr></span>
 
                     <span class="divider-vertical">|</span>
 
-                    <span>Добавлено: <abbr title="<?php echo $torrent->getCtime('d.m.Y H:i'); ?>"><?php echo TimeHelper::timeAgoInWords($torrent->getCtime()); ?></abbr></span>
+                    <span><?php echo $torrent->getAttributeLabel('ctime') ?>: <abbr title="<?php echo $torrent->getCtime('d.m.Y H:i'); ?>"><?php echo TimeHelper::timeAgoInWords($torrent->getCtime()); ?></abbr></span>
 
                     <span class="divider-vertical">|</span>
 
-                    <span>Пиры: <i class="icon-upload" data-toggle="tooltip" data-placement="top" data-original-title="Раздают"></i> <?php echo $torrent->getSeeders(); ?>
-	                    <i class="icon-download" data-toggle="tooltip" data-placement="top" data-original-title="Качают"></i> <?php echo $torrent->getLeechers(); ?></span>
+                    <span><?php echo Yii::t('torrentsModule.common', 'Peers') ?>: <i class="icon-upload" data-toggle="tooltip" data-placement="top" data-original-title="<?php echo $torrent->getAttributeLabel('seeders') ?>"></i> <?php echo $torrent->getSeeders(); ?>
+	                    <i class="icon-download" data-toggle="tooltip" data-placement="top" data-original-title="<?php echo $torrent->getAttributeLabel('leechers') ?>"></i> <?php echo $torrent->getLeechers(); ?></span>
 
                     <span class="divider-vertical">|</span>
 
-                    <span>Скачан: <?php echo $torrent->getDownloads(); ?></span>
+                    <span><?php echo $torrent->getAttributeLabel('downloads') ?>: <?php echo $torrent->getDownloads(); ?></span>
                 </div>
 
             <div id="collapse<?php echo md5($torrent->getSeparateAttribute()) ?>" class="accordion-body collapse">

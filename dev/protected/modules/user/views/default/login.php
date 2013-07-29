@@ -30,7 +30,14 @@
 			array(
 			     'buttonType' => 'submit',
 			     'type'       => 'primary',
-			     'label'      => 'Login',
+			     'label'      => Yii::t('userModule.common', 'Login'),
+			)); ?>
+
+		<?php $this->widget('bootstrap.widgets.TbButton',
+			array(
+			     'buttonType' => 'button',
+			     //'type'       => 'primary',
+			     'label'      => Yii::t('userModule.common', 'Forgot password'),
 			)); ?>
 	</div>
 

@@ -1,8 +1,14 @@
 <?php
-$yii = dirname(__FILE__) . '/../../../../../yii-1.1.13.e9e4a0/framework/yii.php';
+$yii = 'Z:\home\yii-1.1.13.e9e4a0\framework\yii.php';
 
 return array(
-	'preload'    => array('log'),
+
+	// preloading 'log' component
+	'preload'    => array(
+		'log',
+		'config',
+		//'bootstrap',
+	),
 
 	// autoloading model and component classes
 	'import'     => array(
@@ -11,43 +17,63 @@ return array(
 		'application.helpers.*',
 		'application.extensions.*',
 		'application.behaviors.*',
+
+		'application.modules.yiiadmin.components.*',
 	),
 
-	'modules'    => array(),
+	'modules'    => array(
+	),
 
+	// application components
 	'components' => array(
+		/**
+		 * @var Yii::app()->pd PluginsDispatcher
+		 */
 		'pd'           => array(
 			'class' => 'application.components.PluginsDispatcher',
 		),
-		'user'         => array(
-			'class'          => 'application.components.WebUser',
-			'allowAutoLogin' => true,
-			'behaviors'      => array(
-				'botRecognizer' => array(
-					'class' => 'application.extensions.botRecognizer.botRecognizer',
-				)
+
+		'authManager'  => array(
+			'behaviors'       => array(
+				'auth' => array(
+					'class'  => 'application.modules.auth.components.AuthBehavior',
+					'admins' => array(
+						'admin',
+					),
+					// users with full access
+				),
 			),
+			'class'           => 'application.modules.auth.components.CachedDbAuthManager',
+			'cachingDuration' => 3600,
+			'defaultRoles'    => array('guest'),
 		),
 
-		'urlManager' => array(
-			'urlFormat' => 'path',
-			'showScriptName' => false,
-			'rules' => require(dirname(__FILE__) . '/../urlManager/base.php'),
+		'bootstrap'    => array(
+			'class'                    => 'ext.bootstrap.components.Bootstrap',
+			'responsiveCss'            => true,
+			//'republishAssetsOnRequest' => false,
+		),
+
+		'urlManager'   => array(
+			'urlFormat'        => 'path',
+			'showScriptName'   => false,
+			'useStrictParsing' => true
 		),
 
 		'db'           => array(
-			'connectionString'      => 'mysql:host=localhost;dbname=torrpeda',
-			'username'              => 'torrpeda',
-			'password'              => 'X0DuFYB29rr5bJ9poU2Y',
-			'schemaCachingDuration' => 3600,
-			'enableParamLogging'    => false,
-			'enableProfiling'       => false,
+			'connectionString'      => 'mysql:host=localhost;dbname=yii-torrent',
+			'schemaCachingDuration' => false,
+			'username'              => 'root',
+			'password'              => '',
+			'enableParamLogging'    => true,
+			'enableProfiling'       => true,
 			'charset'               => 'utf8',
+			'tablePrefix'           => '',
 		),
 
 		'errorHandler' => array(
 			'errorAction' => 'site/error',
-			'adminInfo'   => 'at.torrpeda@gmail.com'
+			'adminInfo'   => 'admin@yii-torrent.com'
 		),
 
 		'log'          => array(
@@ -57,84 +83,84 @@ return array(
 					'class'  => 'CFileLogRoute',
 					'levels' => 'error, warning',
 				),
+				// uncomment the following to show log messages on web pages
+				/*array( // configuration for the toolbar
+					'class'     => 'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
+					'ipFilters' => array(
+						'127.0.0.1',
+						'::1',
+						'192.168.1.2',
+						'192\.168\.1\.[0-9]{3}'
+					),
+				),
 				/*array(
-								'class' => 'CEmailLogRoute',
-								'levels'=>'error, warning, info',
-								'emails'=> array('at.torrpeda@gmail.com'),
-								'sentFrom' => 'error@torrpeda.org',
-								'headers' => array(
-									'Content-type: text/plain; charset="utf-8"'
-								),
-								'filter'=> array(
-									'class' => 'CLogFilter',
-									'logVars' => array('_GET','_SERVER'),
-								),
-							),*/
+					'class' => 'CWebLogRoute',
+				),
+				/*array(
+					'class'    => 'CEmailLogRoute',
+					'levels'   => 'error, warning',
+					'emails'   => array('admin@stroyka'),
+					'sentFrom' => 'error@stroyka',
+				),*/
 			),
 		),
 
 		'cache'        => array(
-			'class'     => 'system.caching.CApcCache',
-			'keyPrefix' => 'ts_',
-		),
-
-		'clientScript' => array(
-			'class'       => 'ext.ExtendedClientScript.ExtendedClientScript',
-			'combineCss'  => true,
-			'compressCss' => true,
-			'combineJs'   => true,
-			'compressJs'  => true,
-			'filePath'    => realpath(dirname(__FILE__) . '/../../../assets'),
-			'fileUrl'     => 'http://st.torrpeda.org/assets',
-		),
-
-
-		'assetManager' => array(
-			'basePath' => realpath(dirname(__FILE__) . '/../../../assets'),
-			'baseUrl'  => 'http://st.torrpeda.org/assets',
-		),
-
-		'viewRenderer' => array(
-			'class'         => 'ext.yiiext.renderers.twig.ETwigViewRenderer',
-			'fileExtension' => '.twig',
-			'globals'       => array(
-				'Yii' => 'Yii',
-			),
-			'options'       => array(
-				'autoescape' => false,
-			),
-		),
-
-		'image'        => array(
-			'class' => 'ext.ImageHandler.CImageHandler',
+			'class' => 'system.caching.CDummyCache',
 		),
 
 		'mail'         => array(
 			'class'         => 'ext.mail.YiiMail',
 			'transportType' => 'php',
 			'viewPath'      => 'application.views.mail',
-			'logging'       => false,
+			'logging'       => true,
 			'dryRun'        => false
 		),
 		'request'      => array(
 			'enableCsrfValidation' => true,
 			'csrfTokenName'        => 'csrf'
 		),
-		'search'       => array(
-			'class'             => 'ext.DGSphinxSearch.DGSphinxSearch',
-			'server'            => '127.0.0.1',
-			'port'              => 3312,
-			'maxQueryTime'      => 3000,
-			'enableProfiling'   => 0,
-			'enableResultTrace' => 0,
-			/*    'fieldWeights' => array(
-							'name' => 10000,
-							'keywords' => 100,
-						),*/
+		'clientScript' => array(
+			'class'    => 'ext.nsclientscript.NLSClientScript',
+			//'excludePattern' => '/\.tpl/i', //js regexp, files with matching paths won't be filtered is set to other than 'null'
+			//'includePattern' => '/\.php/', //js regexp, only files with matching paths will be filtered if set to other than 'null'
+
+			'mergeJs'  => false,
+			//def:true
+			//'compressMergedJs'      => false,
+			//def:false
+
+			'mergeCss' => false,
+			//def:true
+			//'compressMergedCss'     => false,
+			//def:false
+
+			//'serverBaseUrl'         => 'http://localhost',
+			//can be optionally set here
+			//'mergeAbove'            => 1,
+			//def:1, only "more than this value" files will be merged,
+			//'curlTimeOut'           => 5,
+			//def:5, see curl_setopt() doc
+			//'curlConnectionTimeOut' => 10,
+			//def:10, see curl_setopt() doc
+
+			//'appVersion'            => 1.0
+			//if set, it will be appended to the urls of the merged scripts/css
+			'packages' => array(
+				'common' => array(
+					'baseUrl' => '/js/',
+					'js'      => array('common.js'),
+					'depends' => array(
+						'jquery',
+						'bbq'
+					),
+				),
+			)
 		),
-		'config'        => array(
-			'class'=> 'EConfig',
-			'cache'=> 3600,
+
+		'config'       => array(
+			'class' => 'EConfig',
+			'cache' => 3600,
 		),
 	),
 );

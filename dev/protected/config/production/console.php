@@ -1,5 +1,5 @@
 <?php
-$yiic = dirname(__FILE__) . '/../../../../../yii-1.1.13.e9e4a0/framework/yiic.php';
+$yiic = 'Z:\home\yii-1.1.13.e9e4a0\framework\yiic.php';
 
 return array(
 	// preloading 'log' component
@@ -15,6 +15,11 @@ return array(
 	),
 
 	'modules'    => array(
+		// uncomment the following to enable the Gii tool
+		'gii'      => array(
+			'class'    => 'system.gii.GiiModule',
+			'password' => '1234567890',
+		),
 		'yiiadmin' => array(
 			'password'       => '3pCBmquQygWEP7aVjSY4JtFU',
 			'registerModels' => array(
@@ -34,11 +39,11 @@ return array(
 		),
 		'db'           => array(
 			'connectionString'      => 'mysql:host=localhost;dbname=torrpeda',
-			'username'              => 'torrpeda',
-			'password'              => 'X0DuFYB29rr5bJ9poU2Y',
-			'schemaCachingDuration' => 3600,
-			'enableParamLogging'    => false,
-			'enableProfiling'       => false,
+			'schemaCachingDuration' => false,
+			'username'              => 'root',
+			'password'              => '',
+			'enableParamLogging'    => true,
+			'enableProfiling'       => true,
 			'charset'               => 'utf8',
 		),
 
@@ -67,7 +72,7 @@ return array(
 		),
 
 		'cache'        => array(
-			'class'     => 'system.caching.CApcCache',
+			'class'     => 'system.caching.CFileCache',
 			'keyPrefix' => 'ts_',
 		),
 

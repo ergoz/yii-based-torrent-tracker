@@ -117,12 +117,13 @@ class Torrent extends EActiveRecord {
 	public function attributeLabels () {
 		return array(
 			'id'        => 'ID',
-			'ctime'     => 'Ctime',
-			'size'      => 'Size',
-			'downloads' => 'Downloads',
-			'seeders'   => 'Seeders',
-			'leechers'  => 'Leechers',
-			'mtime'     => 'Mtime',
+			'ctime'     => Yii::t('torrentsModule.common', 'Добавлено'),
+			'size'      => Yii::t('torrentsModule.common', 'Размер'),
+			'downloads' => Yii::t('torrentsModule.common', 'Скачан'),
+			'seeders'   => Yii::t('torrentsModule.common', 'Раздают'),
+			'leechers'  => Yii::t('torrentsModule.common', 'Качают'),
+			'mtime'     => Yii::t('torrentsModule.common', 'Время изменения'),
+			'info_hash' => Yii::t('torrentsModule.common', 'Торрент файл'),
 		);
 	}
 
