@@ -1,0 +1,814 @@
+2013/07/29 14:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:32:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:32:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:34:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:35:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:35:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:37:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:38:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:40:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:44:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:47:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:48:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 14:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:48:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:49:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:49:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:50:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:50:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/user/login
+---
+2013/07/29 14:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:51:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:52:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/user/register
+---
+2013/07/29 14:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:54:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 14:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 14:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 17:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 17:13:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 17:13:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 17:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2013/07/29 17:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:13:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:13:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:18:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:19:05 [error] [exception.CException] exception 'CException' with message 'Undefined parameter base.fromEmail' in Z:\home\yii-torrent\dev\protected\components\EConfig.php:30
+Stack trace:
+#0 Z:\home\yii-torrent\dev\protected\modules\user\models\User.php(262): EConfig->get('base.fromEmail')
+#1 Z:\home\yii-torrent\dev\protected\modules\user\models\User.php(227): User->sendCreate()
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(1043): User->afterSave()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(795): CActiveRecord->insert(NULL)
+#4 Z:\home\yii-torrent\dev\protected\modules\user\controllers\DefaultController.php(48): CActiveRecord->save()
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): DefaultController->actionRegister()
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#10 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('register')
+#13 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('user/default/re...')
+#14 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#16 {main}
+REQUEST_URI=/user/register
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 17:26:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 17:26:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 17:26:26 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents
+HTTP_REFERER=http://dev.yii-torrent/
+---
+2013/07/29 17:26:28 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:26:29 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents/create
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:26:30 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents
+HTTP_REFERER=http://dev.yii-torrent/torrents/create
+---
+2013/07/29 17:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:26:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/29 17:26:48 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:26:49 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:26:50 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('create')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents/create
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:26:51 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('index')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('torrents/defaul...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/torrents
+HTTP_REFERER=http://dev.yii-torrent/torrents/create
+---
+2013/07/29 17:27:27 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('logout')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('user/default/lo...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/logout
+HTTP_REFERER=http://dev.yii-torrent/torrents
+---
+2013/07/29 17:27:31 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('logout')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('user/default/lo...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/logout
+HTTP_REFERER=http://dev.yii-torrent/user/logout
+---
+2013/07/29 17:27:34 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('logout')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('user/default/lo...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/logout
+---
+2013/07/29 17:27:50 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('logout')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('user/default/lo...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/logout
+---
+2013/07/29 17:28:45 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Access denied.' in Z:\home\yii-torrent\dev\protected\modules\auth\filters\AuthFilter.php:54
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(38): AuthFilter->preFilter(Object(CFilterChain))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CFilter->filter(Object(CFilterChain))
+#2 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#3 Z:\home\yii-1.1.13.e9e4a0\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): CController->run('logout')
+#5 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('user/default/lo...')
+#6 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/logout
+HTTP_REFERER=http://dev.yii-torrent/user/login
+---
+2013/07/29 17:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "".' in Z:\home\yii-1.1.13.e9e4a0\framework\web\CUrlManager.php:371
+Stack trace:
+#0 Z:\home\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(140): CUrlManager->parseUrl(Object(CHttpRequest))
+#1 Z:\home\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 Z:\home\yii-torrent\dev\index.php(4): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://dev.yii-torrent/torrents/view/id/1
+---

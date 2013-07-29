@@ -1,2 +1,3 @@
-
-/design/.idea
+/dev/.idea/*
+/dev/assets/*
+/dev/uploads/*
