@@ -1,5 +1,5 @@
 <?php
-$yii = 'Z:\home\yii-1.1.13.e9e4a0\framework\yii.php';
+$yii = dirname(__FILE__) . '/../../../../../../../yii-1.1.13.e9e4a0/framework/yii.php';
 
 return array(
 
@@ -57,16 +57,19 @@ return array(
 		'urlManager'   => array(
 			'urlFormat'        => 'path',
 			'showScriptName'   => false,
-			'useStrictParsing' => true
+			'useStrictParsing' => true,
+			'rules' => array(
+				'/' => 'site/index',
+			)
 		),
 
 		'db'           => array(
 			'connectionString'      => 'mysql:host=localhost;dbname=yii-torrent',
-			'schemaCachingDuration' => false,
-			'username'              => 'root',
-			'password'              => '',
-			'enableParamLogging'    => true,
-			'enableProfiling'       => true,
+			'username'              => 'yii-torrent',
+			'password'              => '7jVXKyrGkiAvmNBuPxJtWzdFT',
+			'schemaCachingDuration' => 3600,
+			'enableParamLogging'    => false,
+			'enableProfiling'       => false,
 			'charset'               => 'utf8',
 			'tablePrefix'           => '',
 		),
@@ -83,30 +86,28 @@ return array(
 					'class'  => 'CFileLogRoute',
 					'levels' => 'error, warning',
 				),
-				// uncomment the following to show log messages on web pages
-				/*array( // configuration for the toolbar
-					'class'     => 'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
-					'ipFilters' => array(
-						'127.0.0.1',
-						'::1',
-						'192.168.1.2',
-						'192\.168\.1\.[0-9]{3}'
+				array(
+					'class'    => 'CEmailLogRoute',
+					'levels'   => 'error, warning, info',
+					'emails'   => array('nafania293@gmail.com'),
+					'sentFrom' => 'error@yii-torrent.com',
+					'headers'  => array(
+						'Content-type: text/plain; charset="utf-8"'
+					),
+					'filter'   => array(
+						'class'   => 'CLogFilter',
+						'logVars' => array(
+							'_GET',
+							'_SERVER'
+						),
 					),
 				),
-				/*array(
-					'class' => 'CWebLogRoute',
-				),
-				/*array(
-					'class'    => 'CEmailLogRoute',
-					'levels'   => 'error, warning',
-					'emails'   => array('admin@stroyka'),
-					'sentFrom' => 'error@stroyka',
-				),*/
 			),
 		),
 
 		'cache'        => array(
-			'class' => 'system.caching.CDummyCache',
+			'class'     => 'system.caching.CApcCache',
+			'keyPrefix' => 'tor_',
 		),
 
 		'mail'         => array(
